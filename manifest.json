@@ -2,15 +2,15 @@
     "manifest_version": 3,
     "name": "Thingiverse Dark Mode",
     "version": "1.0",
-    "icon": {
+    "description": "A simple script which converts Thingiverse to a darker theme. Source code here: https://github.com/LuckDuracell/ThingiverseDark",
+    "icons": {
         "16": "16.png",
         "32": "32.png",
         "48": "48.png",
         "128": "128.png"
       },
     "permissions": [
-      "activeTab",
-      "background"
+      "activeTab"
     ],
     "host_permissions": [
         "https://www.thingiverse.com/*"
