@@ -1,0 +1,25 @@
+{
+    "manifest_version": 3,
+    "name": "Thingiverse Dark Mode",
+    "version": "1.0",
+    "icon": {
+        "16": "16.png",
+        "32": "32.png",
+        "48": "48.png",
+        "128": "128.png"
+      },
+    "permissions": [
+      "activeTab",
+      "background"
+    ],
+    "host_permissions": [
+        "https://www.thingiverse.com/*"
+    ],
+    "content_scripts": [
+      {
+        "matches": ["https://www.thingiverse.com/*"],
+        "js": ["content.js"]
+      }
+    ]
+  }
+  
